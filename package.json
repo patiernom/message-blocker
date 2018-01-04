@@ -1,0 +1,19 @@
+{
+  "name": "message-blocker",
+  "version": "0.0.1",
+  "description": "Fastify API Backend + React-Relay-GraphQL Isomorphic App Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marco Patierno",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://patiernom@github.com/patiernom/message-blocker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patiernom/message-blocker/issues"
+  },
+  "homepage": "https://github.com/patiernom/message-blocker#readme"
+}
