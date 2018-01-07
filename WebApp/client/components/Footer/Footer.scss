@@ -1,0 +1,13 @@
+@import '../variables.scss';
+
+.root :global {
+  background-color: $dark-primary-color !important;
+  justify-content: center !important;
+  padding: 30px 16px !important;
+  color: $light-primary-color;
+
+  a {
+    color: $text-primary-color;
+    text-decoration: none;
+  }
+}

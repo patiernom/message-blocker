@@ -59,6 +59,10 @@ const GraphQLTicket = new GraphQLObjectType({
   name: 'Ticket',
   fields: {
     id: globalIdField('Ticket'),
+    realId: {
+      type: GraphQLString,
+      resolve: (obj) => obj.id,
+    },
     source: {
       type: GraphQLString,
       resolve: (obj) => obj.text,

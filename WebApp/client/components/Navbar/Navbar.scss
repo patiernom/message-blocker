@@ -1,0 +1,39 @@
+@import '../variables.scss';
+
+.root :global {
+  .mdl-layout__header-row > .mdl-layout-title {
+    color: $text-primary-color;
+  }
+
+  .mdl-layout__header {
+    background-color: $dark-primary-color;
+  }
+
+  .mdl-layout__header-row .mdl-navigation__link, .mdl-layout__header .mdl-layout__drawer-button {
+    color: $text-primary-color !important;
+  }
+
+  .mdl-layout__drawer > .mdl-layout-title {
+    padding: 0;
+    background-color: $dark-primary-color;
+    color: $text-primary-color;
+    text-decoration: none;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .ticketsCount {
+    text-align: right;
+    color: $text-primary-color;
+    font-weight: 400;
+
+    i {
+      background: $accent-color;
+      border-radius: 50%;
+      text-align: center;
+      vertical-align: middle;
+      padding: 5px;
+      margin: 0 10px;
+    }
+  }
+}

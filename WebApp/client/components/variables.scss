@@ -1,0 +1,23 @@
+/* ==========================================================================
+   COLOR
+   ========================================================================== */
+$dark-primary-color: #512DA8;
+$default-primary-color: #673AB7;
+$light-primary-color: #D1C4E9;
+$text-primary-color: #FFFFFF;
+$accent-color: #FF4081;
+$primary-text-color: #212121;
+$secondary-text-color: #757575;
+$divider-color: #BDBDBD;
+$state-default-color: #fafafa;
+$state-error-color: rgba(255,64,129, 0.2);
+$state-success-color: rgba(0,188,212, 0.2);
+
+.dark-primary-color    { background: #512DA8; }
+.default-primary-color { background: #673AB7; }
+.light-primary-color   { background: #D1C4E9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FF4081; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }

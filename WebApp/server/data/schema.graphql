@@ -39,6 +39,7 @@ type StatusTicketPayload {
 type Ticket implements Node {
   # The ID of an object
   id: ID!
+  realId: String
   source: String
   state: String
   payload: Payload

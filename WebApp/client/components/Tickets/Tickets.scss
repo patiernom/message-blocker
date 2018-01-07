@@ -1,0 +1,9 @@
+@import '../variables.scss';
+
+.root :global {
+  .mdl-list__item {
+    .mdl-list__item-primary-content > span {
+      width: 100%;
+    }
+  }
+}

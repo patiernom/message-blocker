@@ -1,0 +1,60 @@
+@import '../variables.scss';
+
+.root :global {
+  .time {
+    font-size: 10px;
+    color: $secondary-text-color;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .mdl-card {
+    width: 80%;
+    background: $state-default-color;
+    color: $primary-text-color;
+    margin: auto;
+
+    &.blocked {
+      background: $state-error-color;
+    }
+
+    &.closed {
+      background: $state-success-color;
+    }
+  }
+
+  .mdl-card__actions.mdl-card--border {
+    border-top: 1px solid $divider-color;
+  }
+
+  .mdl-card__actions {
+    padding: 20px 30px;
+
+    button {
+      color: $text-primary-color;
+      margin-right: 20px;
+    }
+
+    .mdl-button--raised.mdl-button--accent:disabled {
+      background-color: rgba(0,0,0,.12);
+    }
+  }
+
+  .field {
+    font-size: 13px;
+    color: $primary-text-color;
+  }
+
+  .label {
+    float: left;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .id {
+      width: 300px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+}
