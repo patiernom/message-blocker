@@ -1,11 +1,7 @@
 {
   "name": "message-blocker",
   "version": "0.0.1",
-  "description": "Fastify API Backend + React-Relay-GraphQL Isomorphic App Edit",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Fastify API Backend + React-Relay-GraphQL Isomorphic App",
   "author": "Marco Patierno",
   "license": "MIT",
   "repository": {

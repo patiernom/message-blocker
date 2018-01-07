@@ -33,6 +33,7 @@ const changeElementState = async (id, ticketState) => {
     .find(element => element.id === id)
     .assign({ state: ticketState })
     .write()
+    .save()
 };
 
 export {

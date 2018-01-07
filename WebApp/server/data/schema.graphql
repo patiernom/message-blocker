@@ -1,0 +1,46 @@
+type Mutation {
+  changeStatusTicket(input: StatusTicketInput!): StatusTicketPayload
+}
+
+# An object with an ID
+interface Node {
+  # The id of the object.
+  id: ID!
+}
+
+type Payload {
+  source: String
+  message: String
+  reportType: String
+}
+
+type Query {
+  tickets: [Ticket]
+  ticket(id: ID!): Ticket
+
+  # Fetches an object given its ID
+  node(
+    # The ID of an object
+    id: ID!
+  ): Node
+}
+
+input StatusTicketInput {
+  id: ID!
+  status: String!
+  clientMutationId: String
+}
+
+type StatusTicketPayload {
+  ticket: Ticket
+  clientMutationId: String
+}
+
+type Ticket implements Node {
+  # The ID of an object
+  id: ID!
+  source: String
+  state: String
+  payload: Payload
+  created: String
+}

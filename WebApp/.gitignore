@@ -1,5 +1,6 @@
-.idea/
+# Created by .ignore support plugin (hsz.mobi)
 node_modules/
+.idea/
 graphql.config.json
 graphql.schema.json
 __generated__
