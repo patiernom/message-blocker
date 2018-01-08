@@ -36,7 +36,7 @@
     }
 
     .mdl-button--raised.mdl-button--accent:disabled {
-      background-color: rgba(0,0,0,.12);
+      background-color: $state-disabled;
     }
   }
 
